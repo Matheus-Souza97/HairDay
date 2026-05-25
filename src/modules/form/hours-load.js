@@ -1,6 +1,7 @@
 import dayjs from "dayjs";
 
 import { openingHours } from "../../utils/opening-hours.js";
+import { hoursClik } from "./hours-clik.js";
 
 const hours = document.getElementById("hours");
 
@@ -16,16 +17,16 @@ export function hoursLoad({ date }) {
 
     return {
       hour,
-      avaliable: isHourPast,
+      available: isHourPast,
     };
   });
 
   //Renderiza horarios
-  opening.forEach(({ hour, avaliable }) => {
+  opening.forEach(({ hour, available }) => {
     const li = document.createElement("li");
 
     li.classList.add("hour");
-    li.classList.add(avaliable ? "hour-available" : "hour-unavailable");
+    li.classList.add(available ? "hour-available" : "hour-unavailable");
 
     li.textContent = hour;
 
@@ -39,6 +40,8 @@ export function hoursLoad({ date }) {
 
     hours.append(li);
   });
+  //Adiciona o evento de clik nos horarios disponiveis
+  hoursClik();
 }
 
 function hourHeaderAdd(title) {
