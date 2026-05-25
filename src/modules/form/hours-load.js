@@ -6,6 +6,8 @@ import { hoursClik } from "./hours-clik.js";
 const hours = document.getElementById("hours");
 
 export function hoursLoad({ date }) {
+  //Limpa a lista de horarios
+  hours.innerHTML = "";
   const currentHour = dayjs().hour();
 
   const opening = openingHours.map((hour) => {
