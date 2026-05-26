@@ -1,3 +1,9 @@
 {
-  "schedules": []
+  "schedules": [
+    {
+      "id": 1779796544099,
+      "name": "Matheus Souza",
+      "when": "2026-05-26T18:00:00.000Z"
+    }
+  ]
 }
