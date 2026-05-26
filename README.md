@@ -90,43 +90,6 @@ Este projeto foi desenvolvido para praticar conceitos importantes do ecossistema
 
 ---
 
-## 📂 Estrutura do projeto
-
-```bash
-src
-├── assets
-├── libs
-│   └── dayjs.js
-├── modules
-│   ├── form
-│   │   ├── date-change.js
-│   │   ├── hours-click.js
-│   │   ├── hours-load.js
-│   │   └── submit.js
-│   │
-│   ├── schedules
-│   │   ├── cancel.js
-│   │   ├── load.js
-│   │   └── show.js
-│   │
-│   └── page-load.js
-│
-├── services
-│   ├── api-config.js
-│   ├── schedule-cancel.js
-│   ├── schedule-fetch-by-day.js
-│   └── schedule-new.js
-│
-├── styles
-│   ├── global.css
-│   ├── form.css
-│   └── schedule.css
-│
-└── main.js
-```
-
----
-
 ## ⚙️ Como executar o projeto
 
 ### Clone o repositório
