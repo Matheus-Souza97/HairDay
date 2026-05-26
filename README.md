@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./src/assets/capa.png"alt="Hair Day Logo" width="80%
+  <img alt="Capa do Projeto" src="./src/assets/capa.png" width="80%">
 </p>
 
 <h1 align="center">💈 Hair Day 💈</h1>
@@ -48,7 +48,7 @@ O projeto foi desenvolvido com foco em:
 ### 💻 Desktop
 
 <p align="center">
-  <img src="./src/assets/preview1.png" alt="preview do projeto" width="80%
+  <img alt="Capa do Projeto" src="./src/assets/preview1.png" width="80%">
 </p>
 
 ---
